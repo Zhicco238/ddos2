@@ -19,8 +19,6 @@ bytes = random._urandom(10892)
 
 os.system("clear")
 os.system("figlet DDos Attack")
-os.system("xdg-open https://youtube.com/channel/UCnti7B0HaFE0izlHKwZMn8A")
-   main.main()
 print
 print "Author   : zhicco234" 
 print "github   : https://github.com/zhicco234"
